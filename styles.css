@@ -1,10 +1,9 @@
 @import "reset.css";
+@import "qna.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;300;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins&display=swap");
 
 body {
-  width: 100%;
-  height: 100%;
   font-family: "Noto Sans Mono", monospace;
 }
 
@@ -34,7 +33,9 @@ body {
   align-items: center;
 }
 
-.start {
+.start_page {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
