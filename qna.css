@@ -1,3 +1,44 @@
 .qna {
+  height: 100%;
+  width: 100%;
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  animation: fadeIn 1s forwards ease-in-out;
+}
+
+.question {
+  width: 500px;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.answer {
+  width: 500px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  line-height: 30px;
+}
+
+.answer:hover {
+  background-color: #b889bf;
+  border: 1px solid #b889bf;
+  color: white;
+  transition: 0.3s all;
 }
