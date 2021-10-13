@@ -12,7 +12,7 @@
 .question {
   width: 500px;
   text-align: left;
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 50px;
   font-weight: 800;
   line-height: 40px;
@@ -36,7 +36,8 @@
   line-height: 30px;
 }
 
-.answer:hover {
+.answer:hover,
+.answer:focus {
   background-color: #b889bf;
   border: 1px solid #b889bf;
   color: white;

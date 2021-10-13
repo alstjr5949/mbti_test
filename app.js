@@ -6,10 +6,18 @@ const answerBox2 = document.querySelector(".answer2");
 
 function clickBtn(questionIndex){
 answerBox1.addEventListener("click", function(){
-  next(++questionIndex);
+  qnaPage.style.animation = "fadeOut 0.5s";
+  setTimeout(() => {
+    qnaPage.style.animation = "fadeIn 0.5s";
+    next(++questionIndex);
+  }, 450)
 });
 answerBox2.addEventListener("click", function(){
-  next(++questionIndex);
+  qnaPage.style.animation = "fadeOut 0.5s";
+  setTimeout(() => {
+    qnaPage.style.animation = "fadeIn 0.5s";
+    next(++questionIndex);
+  }, 450)
 })
 }
 
