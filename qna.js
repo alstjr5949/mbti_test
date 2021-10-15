@@ -81,7 +81,7 @@ const qna = [
 ]
 
 /* 결과 값 */
-let value = {
+const value = {
   MW: 0,
   EI: 0,
   SN: 0,
