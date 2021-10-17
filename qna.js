@@ -1,4 +1,4 @@
-/* 질문 */
+// 질문 //
 const qna = [
   {
     question: "당신의 성별은??",
@@ -80,7 +80,7 @@ const qna = [
   }
 ]
 
-/* 결과 값 */
+// 결과 값 //
 const value = {
   MW: 0,
   EI: 0,
