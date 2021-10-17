@@ -88,3 +88,119 @@ const value = {
   TF: 0,
   JP: 0
 }
+
+//결과 content//
+const results = {
+  ESFP : {
+    title : "세미울프컷 한<br>자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  },
+  ESFP : {
+    title : "세미울프컷 한 자유로운 꾸러기",
+    feature : "",
+    good : "",
+    bad : "", 
+    imgsrc : ["ESFPM", "ESFPW"]
+  }
+}
