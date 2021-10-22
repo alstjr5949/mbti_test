@@ -7,22 +7,11 @@ const resultPage = document.querySelector(".result");
 let questionIndex = 0;
 const QUESTION_NUM = 12;
 
-function result(){
-  qnaPage.style.animation = "fadeOut 0.5s";
-  qnaPage.style.display = "none";
-  setTimeout(() => {
-    resultPage.style.animation = "fadeIn 0.5s";
-    setTimeout(() => {
-      resultPage.style.display = "flex";
-    }, 240)
-  }, 240)
-}
-
 // 버튼 클릭 이벤트 //
 answerBox1.addEventListener("click", function(){
   qnaPage.style.animation = "fadeOut 0.5s";
   setTimeout(() => {
-    if(questionIndex == 12){
+    if(questionIndex == QUESTION_NUM){
       result();
     } else {
     qnaPage.style.animation = "fadeIn 0.5s";
@@ -45,7 +34,7 @@ answerBox1.addEventListener("click", function(){
 answerBox2.addEventListener("click", function(){
   qnaPage.style.animation = "fadeOut 0.5s";
   setTimeout(() => {
-    if(questionIndex == 12){
+    if(questionIndex == QUESTION_NUM){
       result();
     } else {
     qnaPage.style.animation = "fadeIn 0.5s";
@@ -72,4 +61,25 @@ function start(){
     }, 450)
     next(questionIndex);
   }, 450)
+}
+
+// 결과 함수 //
+function result(){
+  qnaPage.style.animation = "fadeOut 0.5s";
+  qnaPage.style.display = "none";
+  setTimeout(() => {
+    resultPage.style.animation = "fadeIn 0.5s";
+    setTimeout(() => {
+      resultPage.style.display = "flex";
+    }, 240)
+  }, 240)
+  let gender = "";
+  let mbti = "";
+  value.MW < 1 ? (gender += "W") : (gender += "M");
+  value.EI > 2 ? (mbti += "E") : (mbti += "I");
+  value.SN > 2 ? (mbti += "S") : (mbti += "N");
+  value.TF > 2 ? (mbti += "T") : (mbti += "F");
+  value.JP > 2 ? (mbti += "J") : (mbti += "P");
+  console.log(gender);
+  console.log(mbti);
 }
