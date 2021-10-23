@@ -87,5 +87,8 @@ function result(){
   value.JP > 2 ? (mbti += "J") : (mbti += "P");
   console.log(gender);
   console.log(mbti);
-  console.log(results.mbti.gender);
+  resultTitle.innerHTML = results[mbti][gender];
+  resultFeature.innerHTML = results[mbti]["feature"];
+  compatibilityGood.innerHTML = results[mbti]["good"];
+  compatibilityBad.innerHTML = results[mbti]["bad"];
 }
