@@ -4,6 +4,8 @@ const questionBox = document.querySelector(".question");
 const answerBox1 = document.querySelector(".answer1");
 const answerBox2 = document.querySelector(".answer2");
 const resultPage = document.querySelector(".result");
+const container = document.querySelector(".container");
+const resultContainer = document.querySelector(".result_container");
 let questionIndex = 0;
 const QUESTION_NUM = 12;
 
@@ -70,12 +72,12 @@ function result(){
   const compatibilityGood = document.querySelector(".compatibility_good");
   const compatibilityBad = document.querySelector(".compatibility_bad");
 
-  qnaPage.style.animation = "fadeOut 0.5s";
-  qnaPage.style.display = "none";
+  container.style.animation = "fadeOut 0.5s";
+  container.style.display = "none";
   setTimeout(() => {
-    resultPage.style.animation = "fadeIn 0.5s";
+    resultContainer.style.animation = "fadeIn 0.5s";
     setTimeout(() => {
-      resultPage.style.display = "flex";
+      resultContainer.style.display = "flex";
     }, 240)
   }, 240)
   let gender = "title";

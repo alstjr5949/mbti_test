@@ -1,7 +1,14 @@
+.result_container {
+  width: 100%;
+  height: 1100px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .result {
   height: 100%;
   width: 100%;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -32,7 +39,6 @@
 
 .result_feature {
   width: 500px;
-  height: 280px;
   text-align: left;
   font-size: 15px;
   margin-bottom: 30px;
