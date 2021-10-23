@@ -65,6 +65,11 @@ function start(){
 
 // 결과 함수 //
 function result(){
+  const resultTitle = document.querySelector(".result_title");
+  const resultFeature = document.querySelector(".result_feature");
+  const compatibilityGood = document.querySelector(".compatibility_good");
+  const compatibilityBad = document.querySelector(".compatibility_bad");
+
   qnaPage.style.animation = "fadeOut 0.5s";
   qnaPage.style.display = "none";
   setTimeout(() => {
@@ -73,7 +78,7 @@ function result(){
       resultPage.style.display = "flex";
     }, 240)
   }, 240)
-  let gender = "";
+  let gender = "title";
   let mbti = "";
   value.MW < 1 ? (gender += "W") : (gender += "M");
   value.EI > 2 ? (mbti += "E") : (mbti += "I");
@@ -82,4 +87,5 @@ function result(){
   value.JP > 2 ? (mbti += "J") : (mbti += "P");
   console.log(gender);
   console.log(mbti);
+  console.log(results.mbti.gender);
 }
