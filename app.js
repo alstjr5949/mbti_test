@@ -6,6 +6,7 @@ const answerBox2 = document.querySelector(".answer2");
 const resultPage = document.querySelector(".result");
 const container = document.querySelector(".container");
 const resultContainer = document.querySelector(".result_container");
+const resetBtn = document.querySelector(".restart_btn");
 let questionIndex = 0;
 const QUESTION_NUM = 12;
 
@@ -74,6 +75,7 @@ function result(){
 
   container.style.animation = "fadeOut 0.5s";
   container.style.display = "none";
+  qnaPage.style.display = "none";
   setTimeout(() => {
     resultContainer.style.animation = "fadeIn 0.5s";
     setTimeout(() => {
@@ -94,3 +96,23 @@ function result(){
   compatibilityGood.innerHTML = results[mbti]["good"];
   compatibilityBad.innerHTML = results[mbti]["bad"];
 }
+
+// reset 함수 클릭 이벤트 함수
+resetBtn.addEventListener("click", function(){
+  resultContainer.style.animation = "fadeOut 1s";
+  resultContainer.style.display = "none";
+  setTimeout(() => {
+    container.style.animation = "fadeIn 1s";
+    container.style.display = "flex";
+    setTimeout(() => {
+      mainPage.style.animation = "fadeIn 0.5s";
+      mainPage.style.display = "flex";
+    }, 450)
+  }, 450)
+  questionIndex = 0;
+  value.MW = 0;
+  value.EI = 0;
+  value.SN = 0;
+  value.TF = 0;
+  value.JP = 0;
+})
