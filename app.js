@@ -72,6 +72,7 @@ function result(){
   const resultFeature = document.querySelector(".result_feature");
   const compatibilityGood = document.querySelector(".compatibility_good");
   const compatibilityBad = document.querySelector(".compatibility_bad");
+  const resultImg = document.querySelector(".result_img");
 
   container.style.animation = "fadeOut 0.5s";
   container.style.display = "none";
@@ -82,19 +83,20 @@ function result(){
       resultContainer.style.display = "flex";
     }, 240)
   }, 240)
-  let gender = "title";
+  let title = "title";
+  let gender = "";
   let mbti = "";
-  value.MW < 1 ? (gender += "W") : (gender += "M");
+  value.MW < 1 ? (title += "W") : (title += "M");
+  value.MW < 1 ? (gender += "1") : (gender += "0");
   value.EI > 2 ? (mbti += "E") : (mbti += "I");
   value.SN > 2 ? (mbti += "S") : (mbti += "N");
   value.TF > 2 ? (mbti += "T") : (mbti += "F");
   value.JP > 2 ? (mbti += "J") : (mbti += "P");
-  console.log(gender);
-  console.log(mbti);
-  resultTitle.innerHTML = results[mbti][gender];
+  resultTitle.innerHTML = results[mbti][title];
   resultFeature.innerHTML = results[mbti]["feature"];
   compatibilityGood.innerHTML = results[mbti]["good"];
   compatibilityBad.innerHTML = results[mbti]["bad"];
+  //resultImg.innerHTML = results[mbti]["imgsrc"][gender];//
 }
 
 // reset 함수 클릭 이벤트 함수
