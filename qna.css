@@ -13,7 +13,7 @@
   text-align: center;
   font-size: 26px;
   margin-bottom: 50px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 40px;
 }
 
@@ -27,7 +27,7 @@
   align-items: center;
   color: black;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
