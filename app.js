@@ -7,8 +7,13 @@ const resultPage = document.querySelector(".result");
 const container = document.querySelector(".container");
 const resultContainer = document.querySelector(".result_container");
 const resetBtn = document.querySelector(".restart_btn");
+const nowQuestion = document.querySelector(".now");
 let questionIndex = 0;
+let nowQuestionNum = 1;
 const QUESTION_NUM = 12;
+
+//progress qeustion number bar//
+nowQuestion.innerHTML = String(nowQuestionNum).padStart(2, "0");
 
 // 버튼 클릭 이벤트 //
 answerBox1.addEventListener("click", function(){
@@ -18,6 +23,8 @@ answerBox1.addEventListener("click", function(){
       result();
     } else {
     qnaPage.style.animation = "fadeIn 0.5s";
+    nowQuestionNum = parseInt(nowQuestionNum) + 1;
+    nowQuestion.innerHTML = String(nowQuestionNum).padStart(2, "0");
     next(++questionIndex);
     }
   }, 450)
@@ -41,9 +48,12 @@ answerBox2.addEventListener("click", function(){
       result();
     } else {
     qnaPage.style.animation = "fadeIn 0.5s";
+    nowQuestionNum = parseInt(nowQuestionNum) + 1;
+    nowQuestion.innerHTML = String(nowQuestionNum).padStart(2, "0");
     next(++questionIndex);
     }
   }, 450)
+  
 })
 
 //next 함수
@@ -117,4 +127,6 @@ resetBtn.addEventListener("click", function(){
   value.SN = 0;
   value.TF = 0;
   value.JP = 0;
+  nowQuestionNum = 1;
+  nowQuestion.innerHTML = String(nowQuestionNum).padStart(2, "0");
 })

@@ -78,9 +78,9 @@ body {
 
 .start_btn {
   width: 400px;
-  height: 60px;
+  height: 70px;
   margin-top: 50px;
-  background-color: #b889bf;
+  background-color: #d277f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   font-size: 25px;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 70px;
 }
 
 .logo {
