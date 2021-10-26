@@ -38,7 +38,7 @@ body {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,4 +95,333 @@ body {
   margin-top: 20px;
   font-size: 50px;
   font-family: "Caveat", cursive;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1440px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+}
+
+/* Ipad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .your-class-here {
+    background: black;
+  }
+}
+
+/* Ipad Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .your-class-here {
+    background: black;
+  }
+}
+
+/* Iphone 6+,7+,8+ Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .container {
+    width: 413px;
+    height: 736px;
+  }
+  .start_title {
+    font-size: 40px;
+  }
+  .start_btn {
+    width: 400px;
+  }
+  .qna {
+    height: 100%;
+    width: 100%;
+  }
+  .question {
+    width: 100%;
+    font-size: 19px;
+  }
+  .answer {
+    width: 100%;
+    font-size: 18px;
+  }
+  .now {
+    font-size: 25px;
+  }
+  .total {
+    font-size: 15px;
+  }
+  .result_container {
+    width: 414px;
+    height: 100%;
+  }
+  .result_title {
+    width: 100%;
+  }
+  .result_img {
+    width: 250px;
+    height: 250px;
+  }
+  .result_content {
+    width: 100%;
+  }
+  .result_text {
+    width: 100%;
+  }
+  .result_feature {
+    width: 100%;
+    text-align: left;
+  }
+  .compatibility_good,
+  .compatibility_bad {
+    width: 100%;
+  }
+  .restart_btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Iphone 6+,7+,8+ Landscape */
+@media only screen and (min-device-width: 736px) and (max-device-width: 811px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .container {
+    width: 736px;
+    height: 500px;
+  }
+  .start_title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .start_content img {
+    width: 200px;
+    height: 200px;
+  }
+  .start_btn {
+    width: 400px;
+    height: 50px;
+  }
+  .qna {
+    height: 100%;
+    width: 100%;
+  }
+  .question {
+    width: 100%;
+    font-size: 19px;
+  }
+  .answer {
+    width: 100%;
+    font-size: 18px;
+  }
+  .now {
+    font-size: 25px;
+  }
+  .total {
+    font-size: 15px;
+  }
+  .result_container {
+    width: 736px;
+    height: 550px;
+  }
+  .result_title {
+    width: 100%;
+    text-align: center;
+  }
+  .result_img {
+    width: 300px;
+    height: 300px;
+  }
+  .result_content {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .result_text {
+    width: 55%;
+  }
+  .result_feature {
+    width: 100%;
+    text-align: left;
+  }
+  .compatibility_good,
+  .compatibility_bad {
+    width: 100%;
+  }
+  .restart_btn {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+/* Iphone X Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .container {
+    width: 375px;
+    height: 812px;
+  }
+  .start_title {
+    font-size: 40px;
+  }
+  .start_btn {
+    width: 350px;
+  }
+  .qna {
+    height: 100%;
+    width: 100%;
+  }
+  .question {
+    width: 100%;
+    font-size: 19px;
+  }
+  .answer {
+    width: 100%;
+    font-size: 18px;
+  }
+  .now {
+    font-size: 25px;
+  }
+  .total {
+    font-size: 15px;
+  }
+  .result_container {
+    width: 375px;
+    height: 100%;
+  }
+  .result_title {
+    width: 100%;
+  }
+  .result_img {
+    width: 250px;
+    height: 250px;
+  }
+  .result_content {
+    width: 100%;
+  }
+  .result_text {
+    width: 100%;
+  }
+  .result_feature {
+    width: 100%;
+    text-align: left;
+  }
+  .compatibility_good,
+  .compatibility_bad {
+    width: 100%;
+  }
+  .restart_btn {
+    width: 100%;
+  }
+}
+
+/* Iphone X Landscape */
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .container {
+    width: 812px;
+    height: 500px;
+  }
+  .start_title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .start_content img {
+    width: 200px;
+    height: 200px;
+  }
+  .start_btn {
+    width: 400px;
+    height: 50px;
+  }
+  .qna {
+    height: 100%;
+    width: 100%;
+  }
+  .question {
+    width: 100%;
+    font-size: 19px;
+  }
+  .answer {
+    width: 100%;
+    font-size: 18px;
+  }
+  .now {
+    font-size: 25px;
+  }
+  .total {
+    font-size: 15px;
+  }
+  .result_container {
+    width: 812px;
+    height: 550px;
+  }
+  .result_title {
+    width: 100%;
+    text-align: center;
+  }
+  .result_img {
+    width: 300px;
+    height: 300px;
+  }
+  .result_content {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .result_text {
+    width: 60%;
+  }
+  .result_feature {
+    width: 100%;
+    text-align: left;
+  }
+  .compatibility_good,
+  .compatibility_bad {
+    width: 100%;
+  }
+  .restart_btn {
+    width: 100%;
+    margin: 0px;
+  }
 }
