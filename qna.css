@@ -35,12 +35,12 @@
   line-height: 30px;
 }
 
-.answer:hover,
-.answer:focus {
+.answer:active {
   background-color: #b889bf;
   border: 1px solid #b889bf;
   color: white;
   transition: 0.3s all;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .progress {
