@@ -25,6 +25,7 @@
 }
 
 .result_content {
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +39,6 @@
 }
 
 .result_feature {
-  width: 500px;
   text-align: left;
   font-size: 15px;
   margin-bottom: 30px;
@@ -48,7 +48,6 @@
 
 .compatibility_good,
 .compatibility_bad {
-  width: 500px;
   text-align: left;
   font-size: 12px;
   font-weight: 300;
