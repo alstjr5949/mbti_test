@@ -38,6 +38,10 @@
   margin-bottom: 50px;
 }
 
+.result_text {
+  width: 100%;
+}
+
 .result_feature {
   text-align: left;
   font-size: 15px;
