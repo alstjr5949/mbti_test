@@ -50,9 +50,18 @@
   line-height: 20px;
 }
 
-.result_feature span {
-  font-size: 20px;
+.result_feature ul {
+  list-style: none;
+}
+
+.result_feature li {
+  margin-bottom: 20px;
+}
+
+.result_feature li:before {
+  content: "✂︎";
   margin-right: 10px;
+  font-size: 20px;
 }
 
 .compatibility_good,

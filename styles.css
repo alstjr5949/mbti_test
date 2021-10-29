@@ -99,7 +99,7 @@ body {
 
 /* 
   ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+  ##Screen = 1440px to higher resolution desktops
 */
 
 @media (min-width: 1440px) {
@@ -117,7 +117,7 @@ body {
 
 /* 
   ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
+  ##Screen = B/w 1367px to 1440px
 */
 
 @media (min-width: 1367px) and (max-width: 1440px) {
@@ -133,8 +133,8 @@ body {
   }
 }
 /* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
+  ##Device = Ipad Pro (portrait)
+  ##Screen = 1024px to 1366px
 */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
@@ -202,6 +202,10 @@ body {
     font-size: 35px;
   }
 }
+/* 
+  ##Device = Ipad (portrait)
+  ##Screen = 768px to 1023px
+*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
@@ -249,8 +253,8 @@ body {
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
+  ##Device = Iphone 6+,7+,8+(Portrait)
+  ##Screen = 414px to 767px
 */
 
 @media (min-width: 414px) and (max-width: 767px) {
@@ -314,8 +318,8 @@ body {
 }
 
 /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
+  ##Device = Iphone X(Portrait)
+  ##Screen = 375px to 413px
 */
 
 @media (min-width: 375px) and (max-width: 413px) {
@@ -377,6 +381,10 @@ body {
     width: 100%;
   }
 }
+/* 
+  ##Device = Mobile(Portrait)
+  ##Screen = 320px to 374px
+*/
 
 @media (min-width: 320px) and (max-width: 374px) {
   .container {
@@ -452,6 +460,11 @@ body {
     font-size: 20px;
   }
 }
+
+/* 
+  ##Device = Galax Fold(Portrait)
+  ##Screen = 270px to 319px
+*/
 
 @media (min-width: 270px) and (max-width: 319px) {
   .container {
@@ -592,6 +605,7 @@ body {
     margin: 0px;
   }
 }
+
 /* Iphone X Landscape */
 @media only screen and (min-device-width: 812px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .container {
