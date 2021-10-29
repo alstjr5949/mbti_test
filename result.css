@@ -50,6 +50,11 @@
   line-height: 20px;
 }
 
+.result_feature span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
 .compatibility_good,
 .compatibility_bad {
   text-align: left;

@@ -595,8 +595,8 @@ body {
 /* Iphone X Landscape */
 @media only screen and (min-device-width: 812px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .container {
-    width: 812px;
-    height: 500px;
+    width: 100vw;
+    height: 110vh;
   }
   .start_title {
     font-size: 30px;
@@ -605,10 +605,15 @@ body {
   .start_content img {
     width: 200px;
     height: 200px;
+    margin: 0px;
   }
   .start_btn {
     width: 400px;
     height: 50px;
+    margin-top: 0px;
+  }
+  .logo {
+    font-size: 40px;
   }
   .qna {
     height: 100%;
@@ -616,10 +621,11 @@ body {
   }
   .question {
     width: 100%;
-    font-size: 19px;
+    font-size: 20px;
   }
   .answer {
-    width: 100%;
+    width: 70%;
+    height: 75px;
     font-size: 18px;
   }
   .now {
@@ -648,6 +654,10 @@ body {
   }
   .result_text {
     width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .result_feature {
     width: 100%;
