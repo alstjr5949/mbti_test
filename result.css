@@ -58,7 +58,7 @@
 .result_feature li {
   margin-bottom: 20px;
   list-style-position: inside;
-  text-indent: -25px;
+  text-indent: -29px;
   padding-left: 20px;
 }
 
@@ -89,4 +89,36 @@
   font-weight: 600;
   cursor: pointer;
   border-radius: 70px;
+}
+
+.btn_container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.share_btn {
+  width: 48%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 70px;
+}
+
+.kakao_share {
+  background-color: #f1c102;
+}
+
+.link_share {
+  background-color: #93c93d;
+}
+
+.fa-link {
+  margin-right: 5px;
 }

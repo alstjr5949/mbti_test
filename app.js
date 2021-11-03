@@ -8,6 +8,7 @@ const container = document.querySelector(".container");
 const resultContainer = document.querySelector(".result_container");
 const resetBtn = document.querySelector(".restart_btn");
 const nowQuestion = document.querySelector(".now");
+const linkBtn = document.querySelector(".link_share");
 let questionIndex = 0;
 let nowQuestionNum = 1;
 const QUESTION_NUM = 12;
@@ -130,3 +131,16 @@ resetBtn.addEventListener("click", function(){
   nowQuestionNum = 1;
   nowQuestion.innerHTML = String(nowQuestionNum).padStart(2, "0");
 })
+
+//링크 공유 이벤트
+function linkClick(){
+  const url = "https://alstjr5949.github.io/mbti_test/";
+  const textarea = document.createElement("textarea");
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("링크가 복사되었습니다.");
+}
+
+linkBtn.addEventListener("click", linkClick);

@@ -129,7 +129,7 @@ body {
     -webkit-tap-highlight-color: transparent;
   }
   .result_container {
-    height: 1000px;
+    height: 1050px;
   }
 }
 /* 
@@ -181,6 +181,9 @@ body {
   .result_title {
     width: 600px;
     font-size: 45px;
+  }
+  .result_content {
+    width: 600px;
   }
   .result_img {
     width: 550px;
